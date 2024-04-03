@@ -17,7 +17,10 @@ function App() {
       )
         .then((res) => res.json())
         .then((data) => setdata(data))
-        .catch((err) => console.error("Error Fetching Data", err));
+        .catch((err) => {
+          alert("failed to fetch data");
+          console.error("Error Fetching Data", err);
+        });
     }
     fetchAPIData();
   }, []);
