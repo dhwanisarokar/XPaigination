@@ -1,14 +1,17 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
   font-weight: 400;
+}
+
+#root {
+  width: 100vw;
 }
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -19,17 +22,12 @@ h1 {
 
 button {
   border-radius: 8px;
+  background: #009879;
+  color: white;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   cursor: pointer;
   text-align: center;
   transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }

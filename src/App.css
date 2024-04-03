@@ -1,0 +1,52 @@
+.table-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 14px 14px;
+  overflow-x: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 900px;
+}
+
+table thead {
+  background: #009879;
+  color: white;
+  text-transform: capitalize;
+}
+
+td,
+th {
+  padding: 11px 14px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+tbody tr:hover {
+  background: #ececec;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.pagination-container {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-btn {
+  cursor: auto;
+}
